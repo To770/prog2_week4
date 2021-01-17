@@ -1,6 +1,10 @@
 //演習2_8の途中。
 public class Chatbot{
     private String name;
+
+    public void setName(String _name){
+        this.name = _name;
+    }
     public Chatbot(){
         System.out.println("チャットボットの原型を作成します。");
     }
